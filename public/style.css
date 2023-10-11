@@ -1,67 +1,17 @@
-.welcome-page {
-   
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.3)),url(asset/bg.jpg);
-    height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat; 
+.bg-home {
+    background-image: url(asset/bg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.welcome-page h1{
-    padding-top: 20%;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: 3px 3px 6px black;
+.bg-home h1 {
+    max-width: fit-content;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
 }
-.icon-plane{
-    color: white;
-    size: 20px;
-    padding-top: 5px;
-}
-
-.welcome-page p{  padding-top: 20%;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 0px;
-    font-size: 50px;
-    text-shadow: 3px 3px 6px black;
-
-}
-table {
-    margin: 0 auto;
-}
-
-/* CSS untuk mengubah ukuran huruf */
-table th,
-table td {
-    font-size: 20px; /* Sesuaikan ukuran huruf sesuai kebutuhan */
-}
-.hal-jadwal{
-    padding-top: 10%;
-    text-align: center;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.3)),url(images/bandara.jpg);
-    height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat; 
-}
-
-
-/* Styling default button */
-.beli-button {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    background-color: rgba(187, 187, 187, 0.142); /* Warna semi-transparan, ubah sesuai keinginan Anda */
-    border-radius: 10px; /* Untuk membuat sudut tumpul */
-    color: white; /* Warna teks putih */
-    transition: color 0.3s, background-color 0.3s; /* Efek transisi saat dihover */
-}
-
-/* Styling button saat dihover */
-.beli-button:hover {
-    color: rgba(178, 178, 8, 0.836); /* Ubah warna teks menjadi kuning saat dihover */
-    background-color: rgba(22, 18, 18, 0.7); /* Ubah warna latar menjadi lebih terang saat dihover */
-    text-decoration: none; /* Hilangkan efek underline saat dihover (opsional) */
-}
-.link-muted { color: #aaa; } .link-muted:hover { color: #1266f1; }

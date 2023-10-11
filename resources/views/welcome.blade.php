@@ -2,6 +2,8 @@
 @extends('layout.base')
 
 @section('content')
-<h1></h1>
+<div class="bg-home">
+    <h1>Selamat Datang di Book store</h1>
 
+</div>
 @endsection
